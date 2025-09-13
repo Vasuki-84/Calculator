@@ -1,15 +1,16 @@
 .container {
     width: 30vh;
     height: 70vh;
-    border: 2px solid grey;
     margin: auto;
     position: relative;
     top: 100px;
-    display: grid;
+   
 }
-.col>.form-group>button{
-    display: flex;
-    width: 25%;
-  
-  
+.button-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 4fr); /* 4 equal columns */
+  gap: 10px; /* space between buttons */
 }
+
+
+
