@@ -1,16 +1,36 @@
-.container {
-    width: 30vh;
-    height: 70vh;
-    margin: auto;
-    position: relative;
-    top: 100px;
-   
-}
-.button-grid {
+.Calculator {
+  width: 50vh;
+  height: 70vh;
+  border: 1px solid rgb(197, 194, 194);
+  margin: auto;
+  position: relative;
+  top: 80px;
   display: grid;
-  grid-template-columns: repeat(4, 4fr); /* 4 equal columns */
-  gap: 10px; /* space between buttons */
+   gap: 5px;
+   padding: 20px;
 }
+.Calculator>.form-group{
+  display: flex;
+  justify-content: space-between;
+   gap: 5px;
 
-
-
+ 
+}
+.Calculator>.form-group>button{
+  width: 25%;
+  font-size: 20px;
+  border: none;
+}
+.Calculator>.form-group>input{
+  width: 100%;
+  font-size: 25px;
+  border:1px solid rgb(86, 84, 84) ;
+  text-align: end;
+  outline: none;
+}
+.evaluate{
+  color: rgb(242, 244, 247);
+  background-color: rgb(23, 99, 232);
+  border: 1px grey;
+  border-radius: 10px;
+}
