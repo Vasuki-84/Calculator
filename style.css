@@ -1,13 +1,13 @@
 .Calculator {
-  width: 50vh;
+  width: 60vh;
   height: 70vh;
   border: 1px solid rgb(197, 194, 194);
   margin: auto;
   position: relative;
-  top: 80px;
+  top: 50px;
   display: grid;
    gap: 5px;
-   padding: 20px;
+   padding:10px;
 }
 .Calculator>.form-group{
   display: flex;
