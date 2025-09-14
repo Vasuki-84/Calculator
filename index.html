@@ -22,8 +22,8 @@
 
         <div class="form-group">
             <button type="button" onclick="addValue('%')" class="btn btn-outline-secondary btn-lg border border-dark ">%</button>
-            <button type="button" onclick="" class="btn btn-outline-secondary  btn-lg border border-dark ">C</button>
-            <button type="button" onclick="" class="btn btn-outline-secondary  btn-lg border border-dark ">Del</button>
+            <button type="button" onclick="clearValue()" class="btn btn-outline-secondary  btn-lg border border-dark ">C</button>
+            <button type="button" onclick=" deleteValue()" class="btn btn-outline-secondary  btn-lg border border-dark ">Del</button>
             <button type="button" onclick="addValue('/')"  class="btn btn-outline-secondary  btn-lg border border-dark ">/</button>
         </div>
 
@@ -50,7 +50,7 @@
             <button type="button" onclick="addValue('00')" class="btn btn-outline-secondary  btn-lg border border-dark ">00</button>
             <button type="button" onclick="addValue('0')" class="btn btn-outline-secondary  btn-lg border border-dark ">0</button>
             <button type="button" onclick="addValue('.')" class="btn btn-outline-secondary  btn-lg border border-dark ">.</button>
-            <button type="button" onclick="" class="evaluate">=</button>
+            <button type="button" onclick="evaluateValue()" class="evaluate">=</button>
         </div>
 
     </form>
