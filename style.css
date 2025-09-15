@@ -1,3 +1,10 @@
+body{
+  background-color: rgb(197, 155, 238);
+  width: 100%;
+}
+
+
+
 .Calculator {
   width: 60vh;
   height: 70vh;
@@ -13,13 +20,14 @@
   display: flex;
   justify-content: space-between;
    gap: 5px;
-
- 
 }
 .Calculator>.form-group>button{
-  width: 25%;
+  width:20%;
+  
   font-size: 20px;
+  color: black;
   border: none;
+  
 }
 .Calculator>.form-group>input{
   width: 100%;
@@ -29,13 +37,28 @@
   outline: none;
   padding-right: 15px;
 }
-.Calculator>.form-group>.evaluate{
-  color: rgb(242, 244, 247);
-  background-color: rgb(53, 16, 236);
-  border: 1px grey;
-  border-radius: 10px;
-  font-size:30px;
+
+.btn-bd-primary {
+  font-weight: 600;
+  color: #f51313;
+  background-color: #ee9aaf; /* Violet */
+  border: 1px solid #f10505;
+  transition: all 0.2s ease-in-out;
 }
-.Calculator>.form-group>.evaluate:hover{
-  background-color: rgb(131, 131, 241); ;
+
+.btn-bd-primary:hover {
+  color: #fff;
+  background-color: #e7123d; /* Darker violet for hover */
+  border-color: #dd4747;
 }
+
+.btn-bd-primary:active {
+  color: #fff;
+  background-color: #f12828; /* Even darker for active */
+  border-color: #e52c3c;
+}
+
+.btn-bd-primary:focus {
+  box-shadow: 0 0 0 0.25rem rgba(236, 14, 14, 0.5); /* Focus ring */
+}
+
