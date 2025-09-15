@@ -13,10 +13,13 @@ body{
   display: grid;
    gap: 5px;
    padding:10px;
+    border:3px double whitesmoke;
+  
 }
 .Calculator>.form-group{
   display: flex;
   justify-content: space-between;
+ 
    gap: 5px;
 }
 .Calculator>.form-group>button{
@@ -39,20 +42,20 @@ body{
 .btn-bd-primary {
   font-weight: 600;
   color: #f51313;
-  background-color: #ee9aaf; /* Violet */
+  background-color: #ee9aaf; 
   border: 1px solid #f10505;
   transition: all 0.2s ease-in-out;
 }
 
 .btn-bd-primary:hover {
   color: #fff;
-  background-color: #e7123d; /* Darker violet for hover */
+  background-color: #e7123d; 
   border-color: #dd4747;
 }
 
 .btn-bd-primary:active {
   color: #fff;
-  background-color: #f12828; /* Even darker for active */
+  background-color: #f12828;
   border-color: #e52c3c;
 }
 
